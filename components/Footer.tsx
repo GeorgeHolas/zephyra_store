@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -9,10 +10,13 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           <div className="w-full sm:w-1/2 md:w-1/4 mb-8 md:mb-0">
             <div className="flex flex-col items-center">
-              <img
+            <Image
                 src="/logo1.png"
                 alt="Zephyra Logo"
-                className="mr-10 mb-2 h-8"
+                width={110}
+                height={80}
+                style={{ width: 'auto', height: 'auto' }}
+                className="mr-10 mb-2"
               />
               <p className="text-gray-400 px-5">
                 Zephyra is an online store that offers a wide range of products.
