@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="w-full sm:w-1/2 md:w-1/4 mb-8 md:mb-0">
             <div className="flex flex-col items-center">
             <Image
-                src="/logo1.png"
+                src="/Logo1.png"
                 alt="Zephyra Logo"
                 width={110}
                 height={80}
