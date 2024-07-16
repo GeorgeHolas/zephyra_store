@@ -12,7 +12,7 @@
 - 💖 Personalized wishlist management
 - 📦 Streamlined order processing
 - 📱 Fully responsive design for all devices
-- 💳 Secure payment processing (coming soon)
+- 💳 Secure payment processing by stripe
 
 ## 🛠️ Technologies Used
 
